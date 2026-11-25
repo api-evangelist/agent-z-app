@@ -66,7 +66,7 @@
 
 EDGE provides tokenized intelligence and automated trading strategies for users. The platform offers a trading edge through diversified investment models, allowing users to select risk levels and connect crypto wallets. It includes a free trial, portfolio rebalancing, and detailed performance tracking via a web dashboard.
 
-**Areas:** Finance · Crypto · Trading · Automation · Tokenization
+**Areas:** Finance · Cryptocurrency · Trading · Automation · Tokenization
 
 ## EDGE on APIs.io
 
@@ -80,11 +80,17 @@ Everything profiled for EDGE is published on APIs.io rather than in this reposit
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agent-z-app-mcp.yml](https://apis.io/servers/agent-z-app/agent-z-app-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agent Z App Agentic Access](https://apis.io/agentic-access/agent-z-app/agent-z-app-agentic-access/)
+- [EDGE Agentic Access](https://apis.io/agentic-access/agent-z-app/agent-z-app-agentic-access/)
 
 #### JSON-LD (1)
 
@@ -102,8 +108,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agent Z App Authentication](https://apis.io/security/agent-z-app/agent-z-app-authentication/)
-- [Agent Z App Domain Security](https://apis.io/security/agent-z-app/agent-z-app-domain-security/)
+- [EDGE Authentication](https://apis.io/security/agent-z-app/agent-z-app-authentication/)
+- [EDGE Domain Security](https://apis.io/security/agent-z-app/agent-z-app-domain-security/)
 
 ## Where to find this API
 
@@ -117,25 +123,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 30.0** — thin · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 24.4** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
+| Discoverability | 73.2 |
 | Contract quality | 10.7 |
-| Contract governance | 79.1 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 33.3 |
-| Access clarity | 21.1 |
+| Access clarity | 27.7 |
 
-**Agent readiness 22.2** — agent-aware
+**Agent readiness 14.7** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
@@ -153,8 +159,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
-**Regulatory alignment 23.1** — Securities & Market Data
+**Regulatory alignment 17.6** — Securities & Market Data
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agent-z-app/](https://apis.io/providers/agent-z-app/).
 
